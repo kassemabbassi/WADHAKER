@@ -1,0 +1,271 @@
+.root {
+    -fx-background-color: radial-gradient(
+        center 50% 50%,
+        radius 50%,
+        #e0f2f1,  /* Vert d'eau très clair */
+        #b2dfdb,   /* Vert clair apaisant */
+        #4db6ac,   /* Vert doux */
+        #00796b    /* Vert profond et élégant */
+    );
+}
+.box {
+    -fx-text-fill: #004d40; /* Couleur du texte vert foncé pour une bonne lisibilité */
+    -fx-cursor: hand; /* Curseur en forme de main */
+    -fx-background-color: rgba(255, 255, 255, 0.4); /* Fond blanc léger avec plus d'opacité (0.4) */
+    -fx-border-color: #4db6ac; /* Bordure vert doux */
+    -fx-border-width: 1px; /* Largeur de bordure */
+    -fx-padding: 15px; /* Ajout de padding pour un espacement interne */
+    -fx-alignment: center; /* Centrer le texte */
+    -fx-background-radius: 15; /* Arrondi des coins pour douceur */
+    -fx-border-radius: 15; /* Arrondi des coins pour les bordures */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 8, 0.5, 0, 0); /* Ombre portée douce */
+    -fx-transition: all 0.3s ease; /* Transition douce */
+}
+
+/* Style des boîtes au survol */
+.box:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Augmentation de l'opacité au survol (0.5) */
+    -fx-border-color: #80cbc4; /* Bordure vert clair au survol */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 10, 0.5, 0, 0); /* Ombre portée plus prononcée au survol */
+}
+
+
+
+/*
+.box {
+    -fx-text-fill: #2e7d32; *//* Couleur du texte vert foncé *//*
+    -fx-cursor: hand; *//* Curseur en forme de main *//*
+    -fx-background-color: rgba(224, 247, 218, 0.7); *//* Fond vert très clair semi-transparent *//*
+    -fx-border-color: #a5d6a7; *//* Couleur de bordure vert clair *//*
+    -fx-border-width: 1px;
+    -fx-padding: 15px; *//* Ajout de padding pour un espacement interne *//*
+    -fx-alignment: center; *//* Centrer le texte *//*
+    -fx-background-radius: 15; *//* Arrondi des coins *//*
+    -fx-border-radius: 15; *//* Arrondi des coins *//*
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0.5, 0, 0); *//* Ombre portée douce *//*
+    -fx-transition: all 0.3s ease; *//* Transition en douceur *//*
+}
+
+*//* Style des boîtes au survol *//*
+.box:hover {
+    -fx-background-color: rgba(224, 247, 218, 0.9); *//* Fond vert très clair plus opaque *//*
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 15, 0.5, 0, 0); *//* Ombre portée plus prononcée *//*
+}*/
+
+ /* Style des étiquettes */
+ .label {
+     -fx-alignment: CENTER_RIGHT;
+     -fx-padding: 0 10 0 0; /* Optionnel : ajoutez un peu de padding à droite */
+ }
+
+ .prayerLabel {
+     -fx-font-family: "Amiri", serif; /* Police élégante pour l'arabe */
+     -fx-font-size: 30px; /* Taille du texte pour une bonne visibilité */
+     -fx-text-fill: #004d40; /* Vert foncé pour le texte, bien visible */
+     -fx-background-color: transparent; /* Fond transparent pour s'intégrer dans la boîte */
+     -fx-padding: 10px; /* Espacement interne pour aérer le texte */
+     -fx-alignment: center; /* Centrer le texte */
+     -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 0.5, 0, 0); /* Ombre douce pour donner de la profondeur */
+     -fx-opacity: 0.9; /* Légère transparence pour un effet léger */
+ }
+
+
+
+
+
+
+.buttonquran {
+    -fx-background-color: linear-gradient(
+        from 0% 0% to 100% 100%,
+        #b2dfdb, /* Vert apaisant */
+        #4db6ac  /* Vert doux */
+    );
+    -fx-cursor: hand;
+    -fx-text-fill: #004d40;  /* Texte vert profond */
+    -fx-font-family: 'Amiri', serif;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 30; /* Bords arrondis doux */
+    -fx-border-radius: 30;
+    -fx-border-color: #00796b; /* Couleur de la bordure compatible avec le fond */
+    -fx-border-width: 2;
+    -fx-padding: 15px 30px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 121, 107, 0.3), 8, 0, 0, 4); /* Ombre légère pour un effet 3D */
+}
+
+.buttonquran:hover {
+    -fx-background-color: linear-gradient(
+        from 0% 0% to 100% 100%,
+        #a5d6a7, /* Vert clair plus lumineux */
+        #66bb6a  /* Vert plus vif */
+    );
+    -fx-border-color: #004d40; /* Couleur de la bordure plus foncée au survol */
+    -fx-effect: dropshadow(gaussian, rgba(0, 121, 107, 0.4), 10, 0, 0, 5); /* Accentuation de l'ombre */
+}
+
+.buttonquran:pressed {
+    -fx-background-color: #2e7d32;  /* Vert foncé */
+    -fx-text-fill: #ffffff;  /* Texte blanc */
+    -fx-border-color: #004d40;
+    -fx-effect: innershadow(gaussian, rgba(0, 77, 64, 0.3), 8, 0, 0, 2); /* Ombre intérieure pour effet enfoncé */
+}
+
+
+.sobhLabel {
+    -fx-font-family: 'Amiri', serif; /* Police élégante pour le texte arabe */
+    -fx-font-size: 72px; /* Texte encore plus grand pour plus d'impact */
+    -fx-text-fill: #2e7d32; /* Vert foncé pour un contraste subtil avec le fond */
+    -fx-text-alignment: center; /* Centrer le texte */
+    -fx-background-color: transparent; /* Fond transparent */
+    -fx-padding: 40px; /* Plus d'espace autour du texte pour un effet plus aéré */
+    -fx-effect: dropshadow( gaussian , rgba(46, 125, 50, 0.75) , 20, 0.5 , 0 , 0 ); /* Ombre portée douce */
+    -fx-border-color: transparent; /* Pas de bordure */
+    -fx-alignment: center; /* Centrer dans le conteneur */
+}
+
+
+
+
+.label-prayer-time {
+    -fx-font-family: "Amiri", serif; /* Police élégante pour l'arabe */
+    -fx-font-size: 24px; /* Taille de la police un peu plus grande pour être lisible */
+    -fx-font-weight: bold; /* Texte en gras pour mieux ressortir */
+    -fx-text-fill: #004d40; /* Vert foncé pour bien contraster avec le fond */
+    -fx-background-color: rgba(255, 255, 255, 0.6); /* Fond semi-transparent, plus léger */
+    -fx-padding: 15px; /* Un peu plus d'espace autour du texte */
+    -fx-border-radius: 15px; /* Coins arrondis pour le look moderne */
+    -fx-background-radius: 15px; /* Coins arrondis également */
+    -fx-alignment: center; /* Texte centré dans le label */
+    -fx-cursor: hand; /* Change le curseur en main pour l'interaction */
+    -fx-opacity: 0.95; /* Légère transparence pour l'effet subtile */
+}
+
+/* Effet au survol */
+.label-prayer-time:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.8); /* Augmente légèrement l'opacité du fond */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.5, 0, 5); /* Ombre plus légère au survol */
+    -fx-text-fill: #004d40; /* Texte en vert foncé pour un contraste toujours parfait */
+}
+
+.labeltime {
+    -fx-font-family: 'Amiri', serif; /* Police élégante pour l'arabe */
+    -fx-alignment: center; /* Centre le texte */
+    -fx-background-color: transparent; /* Fond transparent pour laisser passer le dégradé du root */
+    -fx-font-size: 50px; /* Grande taille pour une bonne lisibilité */
+    -fx-font-weight: bold; /* Texte en gras pour le faire ressortir */
+    -fx-text-fill: #00695c; /* Vert foncé, adapté au design du root */
+    -fx-padding: 10px; /* Ajoute de l'espace autour du texte pour le rendre plus aéré */
+    -fx-border-radius: 15px; /* Coins arrondis pour un aspect doux */
+    -fx-background-radius: 15px; /* Arrondi du fond */
+}
+
+/* Optionnel : Effet au survol */
+.labeltime:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0.5, 0, 6); /* Ombre douce au survol */
+    -fx-text-fill: #004d40; /* Couleur légèrement plus foncée au survol pour attirer l'attention */
+}
+
+
+
+
+
+.arabicDateTimeLabel {
+    -fx-font-family: 'Amiri', serif; /* Utiliser une police élégante pour l'arabe */
+    -fx-font-size: 22px; /* Taille de texte élégante */
+    -fx-text-fill: #003300; /* Vert foncé pour une meilleure lisibilité */
+    -fx-background-color: transparent; /* Fond transparent */
+    -fx-padding: 15px; /* Espacement intérieur pour aérer le texte */
+    -fx-alignment: center; /* Centrer le texte */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 10, 0, 0, 3); /* Ombre douce pour la profondeur */
+    -fx-opacity: 0.95; /* Légère transparence pour une apparence fluide */
+    -fx-font-weight: bold; /* Texte en gras pour une meilleure visibilité */
+    -fx-direction: rtl; /* Texte aligné de droite à gauche */
+    -fx-background-radius: 15px; /* Coins arrondis pour un aspect doux */
+}
+
+
+
+.combo-box {
+    -fx-background-color: transparent; /* Fond transparent pour s'intégrer au dégradé */
+    -fx-border-color: #00897b; /* Bordure vert foncé pour un aspect professionnel */
+    -fx-border-radius: 12px; /* Coins légèrement plus arrondis pour une apparence douce */
+    -fx-padding: 8px; /* Espacement interne */
+    -fx-background-radius: 12px; /* Coins arrondis pour le fond */
+    -fx-font-size: 22px; /* Augmentation de la taille de la police pour une meilleure lisibilité */
+    -fx-font-family: "Amiri", serif; /* Police élégante pour un look professionnel */
+    -fx-text-fill: #003300; /* Vert foncé pour le texte */
+}
+
+.combo-box:hover {
+    -fx-border-color: #4db6ac; /* Changement de couleur de bordure lors du survol */
+}
+
+.combo-box .list-view {
+    -fx-background-color: #e0f7da; /* Fond clair pour la liste déroulante */
+    -fx-border-color: #00897b; /* Bordure assortie */
+    -fx-border-radius: 12px; /* Coins arrondis pour la liste */
+}
+
+.combo-box .list-cell {
+    -fx-background-color: transparent; /* Fond transparent pour les cellules */
+    -fx-font-size: 22px; /* Augmentation de la taille de police pour les options */
+    -fx-padding: 10px; /* Espacement interne des options */
+    -fx-text-fill: #003300; /* Vert foncé pour le texte des options */
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #4db6ac; /* Couleur de survol pour les options */
+    -fx-text-fill: #ffffff; /* Texte blanc lors du survol pour un contraste élevé */
+}
+
+.combo-box .list-cell:filled {
+    -fx-background-color: transparent; /* Fond transparent par défaut */
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: transparent; /* Fond transparent pour la flèche */
+    -fx-text-fill: #003300; /* Couleur de la flèche assortie au texte */
+}
+
+.combo-box .arrow-button:hover {
+    -fx-background-color: #4db6ac; /* Survol de la flèche avec couleur assortie */
+    -fx-text-fill: #ffffff; /* Texte blanc lors du survol pour le contraste */
+}
+
+
+
+/*
+.verseLabel {
+     -fx-font-family: "Amiri", serif; */
+/* Police élégante pour l'arabe *//*
+
+        -fx-font-size: 60px; */
+/* Grande taille pour affichage en grand *//*
+
+        -fx-text-fill: #003300; */
+/* Couleur vert foncé pour le texte *//*
+
+        -fx-alignment: center; */
+/* Centrage du texte *//*
+
+        -fx-padding: 20px; */
+/* Espacement autour du texte *//*
+
+        -fx-background-color: transparent; */
+/* Fond transparent pour laisser passer le dégradé *//*
+
+        -fx-border-color: transparent; */
+/* Optionnel : retire la bordure si non désirée *//*
+
+        -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0.5, 0, 4);
+}*/
+.verseLabel {
+     -fx-font-family: "Amiri", serif; /* Police élégante pour l'arabe */
+        -fx-font-size: 60px; /* Grande taille pour affichage en grand */
+        -fx-text-fill: #003300; /* Couleur vert foncé pour le texte */
+        -fx-alignment: center; /* Centrage du texte */
+        -fx-padding: 20px; /* Espacement autour du texte */
+        -fx-background-color: transparent; /* Fond transparent pour laisser passer le dégradé */
+        -fx-border-color: transparent; /* Optionnel : retire la bordure si non désirée */
+        -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0.5, 0, 4);
+}

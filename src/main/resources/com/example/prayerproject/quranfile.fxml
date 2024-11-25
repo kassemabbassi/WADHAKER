@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1530.0" stylesheets="@../../../style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="albakara" layoutX="1225.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة البقرة🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="aliomrane" layoutX="1073.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة آل عمران🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="ennisaa" layoutX="920.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة النساء🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="almaida" layoutX="768.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة المائدة🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alanaame" layoutX="616.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الأنعام🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alaaraf" layoutX="464.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الأعراف🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alanfal" layoutX="312.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الأنفال🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="attawba" layoutX="160.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة التوبة🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="younes" layoutX="8.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة يونس🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="houd" layoutX="1376.0" layoutY="72.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة هود🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="youssef" layoutX="1225.0" layoutY="72.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة يوسف🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="arraad" layoutX="1073.0" layoutY="72.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الرعد🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="ebrahim" layoutX="920.0" layoutY="72.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة ابراهي🕋م">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="elhejr" layoutX="768.0" layoutY="72.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الحجر🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="annahl" layoutX="616.0" layoutY="72.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة النحل🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alesraa" layoutX="464.0" layoutY="70.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الإسراء🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alkahf" layoutX="312.0" layoutY="70.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الكهف🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="mariem" layoutX="160.0" layoutY="70.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة مري🕋م">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="taha" layoutX="8.0" layoutY="72.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة طه🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alenbia" layoutX="1376.0" layoutY="129.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الأنبياء🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alhaj" layoutX="1225.0" layoutY="129.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الحج🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="almouaminoun" layoutX="1072.0" layoutY="129.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة المؤمنون🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="ennour" layoutX="919.0" layoutY="129.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة النور🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alfourkan" layoutX="768.0" layoutY="129.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الفرقان🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="echouaaraa" layoutX="616.0" layoutY="129.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الشعراء🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="annaml" layoutX="464.0" layoutY="126.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة النمل🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alfatiha" layoutX="1376.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الفاتحة🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alkassas" layoutX="312.0" layoutY="126.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة القصص🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alankabout" layoutX="160.0" layoutY="126.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة العنكبوت🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="arroum" layoutX="8.0" layoutY="125.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الروم🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="lokman" layoutX="1376.0" layoutY="186.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة لقمان🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="assajda" layoutX="1225.0" layoutY="186.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة السجدة🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alahzab" layoutX="1072.0" layoutY="186.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الأحزاب🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="sabaa" layoutX="919.0" layoutY="186.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة سبأ🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="fater" layoutX="768.0" layoutY="186.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة فاطر🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="yassine" layoutX="616.0" layoutY="186.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة يس🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="assafat" layoutX="464.0" layoutY="186.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الصافات🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="sad" layoutX="312.0" layoutY="184.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة ص🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="ghafer" layoutX="8.0" layoutY="186.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة غافر🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="foussilat" layoutX="1376.0" layoutY="245.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة فصلت🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="echoura" layoutX="1225.0" layoutY="245.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الشورى🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="ezzoukhrouf" layoutX="1072.0" layoutY="245.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الزخرف🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="eddoukhan" layoutX="919.0" layoutY="245.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الدخان🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="aljathia" layoutX="768.0" layoutY="245.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الجاثية🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alahkaf" layoutX="616.0" layoutY="243.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الأحقاف🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="mouhamed" layoutX="464.0" layoutY="243.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة محمد🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alfath" layoutX="312.0" layoutY="245.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الفتح🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alhoujourat" layoutX="160.0" layoutY="243.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الحجرات🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="kaf" layoutX="8.0" layoutY="243.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة ق🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="adhariat" layoutX="1376.0" layoutY="300.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الذاريات🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font></Button>
+      <Button fx:id="ettour" layoutX="1225.0" layoutY="300.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الطور🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font></Button>
+      <Button fx:id="annajm" layoutX="1072.0" layoutY="300.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة النجم🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font></Button>
+      <Button fx:id="alkamar" layoutX="920.0" layoutY="302.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة القمر🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font></Button>
+      <Button fx:id="alwakiaa" layoutX="616.0" layoutY="302.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الواقعة🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font></Button>
+      <Button fx:id="arrahman" layoutX="768.0" layoutY="300.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الرحمن🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font></Button>
+      <Button fx:id="alhadid" layoutX="464.0" layoutY="300.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الحديد🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font></Button>
+      <Button fx:id="almoujadala" layoutX="312.0" layoutY="301.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة المجادل🕌ة">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font></Button>
+      <Button fx:id="alhachr" layoutX="160.0" layoutY="300.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الحش🕌ر">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font></Button>
+      <Button fx:id="almoumtahina" layoutX="8.0" layoutY="301.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الممتحنة🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font></Button>
+      <Button fx:id="assaf" layoutX="1376.0" layoutY="443.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الصف🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font></Button>
+      <Button fx:id="aljoumouaa" layoutX="1225.0" layoutY="443.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الجمعة🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font></Button>
+      <Button fx:id="almounafikoun" layoutX="1072.0" layoutY="444.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة المنافقون🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font></Button>
+      <Button fx:id="attaghaboun" layoutX="919.0" layoutY="444.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة التغابن🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font></Button>
+      <Button fx:id="attalak" layoutX="768.0" layoutY="444.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الطلاق🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="attahrim" layoutX="616.0" layoutY="443.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة التحري🕌م">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="almolk" layoutX="464.0" layoutY="443.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة المل🕋ك">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="alkalam" layoutX="312.0" layoutY="443.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة القل🕋م">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="alhakka" layoutX="160.0" layoutY="441.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الحاقة🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="almaarej" layoutX="8.0" layoutY="443.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة المعارج🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="nouh" layoutX="1376.0" layoutY="504.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة نوح🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="aljen" layoutX="1225.0" layoutY="504.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الجن🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="almouzamel" layoutX="1072.0" layoutY="504.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة المزمل🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="almoudather" layoutX="919.0" layoutY="504.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة المدثر🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="alkiama" layoutX="768.0" layoutY="504.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة القيامة🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="alinsen" layoutX="616.0" layoutY="505.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الإنسان🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="almoursalet" layoutX="464.0" layoutY="505.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة المرسلات🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="annaba" layoutX="312.0" layoutY="504.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة النبأ🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="annaziaat" layoutX="160.0" layoutY="503.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة النازعات🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="abasa" layoutX="8.0" layoutY="502.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة عبس🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="attakwir" layoutX="1376.0" layoutY="562.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة التكوير🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="alenfitar" layoutX="1225.0" layoutY="563.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الانفطار🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="almoutaffifin" layoutX="1072.0" layoutY="563.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة المطففي🕋ن">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alenchikak" layoutX="919.0" layoutY="563.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الانشقاق🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="albourouj" layoutX="768.0" layoutY="562.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة البروج🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="attarek" layoutX="616.0" layoutY="562.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الطارق🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="alaala" layoutX="464.0" layoutY="562.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الأعل🕋ى">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alghachia" layoutX="312.0" layoutY="562.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الغاشية🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="alfajr" layoutX="160.0" layoutY="562.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الفجر🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="albalad" layoutX="8.0" layoutY="560.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة البل🕋د">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="achams" layoutX="1376.0" layoutY="621.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الشمس🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="allail" layoutX="1225.0" layoutY="619.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الليل🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="adhouha" layoutX="1072.0" layoutY="619.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الضحى🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="acharh" layoutX="920.0" layoutY="619.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الشرح🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="attin" layoutX="768.0" layoutY="619.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة التي🕋ن">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="alalak" layoutX="616.0" layoutY="619.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة العلق🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="alkadar" layoutX="464.0" layoutY="619.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة القدر🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="azzalzala" layoutX="160.0" layoutY="619.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الزلزلة🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="albayina" layoutX="312.0" layoutY="619.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة البينة🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="aladiat" layoutX="8.0" layoutY="621.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة العاديات🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alkariaa" layoutX="1376.0" layoutY="677.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة القارعة🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="attakathor" layoutX="1225.0" layoutY="677.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة التكاثر🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="alasr" layoutX="1072.0" layoutY="677.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة العص🕋ر">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="alhomaza" layoutX="920.0" layoutY="677.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الهمزة🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="alfil" layoutX="768.0" layoutY="677.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الفيل🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="kouraich" layoutX="616.0" layoutY="677.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة قريش🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="almaaoun" layoutX="464.0" layoutY="677.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الماعون🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="alkawther" layoutX="312.0" layoutY="677.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الكوثر🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="alkafiroun" layoutX="160.0" layoutY="678.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الكافرون🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="annasr" layoutX="8.0" layoutY="677.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة النص🕌ر">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="almassad" layoutX="1072.0" layoutY="735.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة المسد🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="alikhlass" layoutX="768.0" layoutY="736.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الإخلاص🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="alfalak" layoutX="464.0" layoutY="735.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الفلق🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="annass" layoutX="160.0" layoutY="735.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الناس🕌">
+         <font>
+            <Font name="Arabic Typesetting" size="25.0" />
+         </font>
+      </Button>
+      <Button layoutX="160.0" layoutY="184.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonquran" stylesheets="@../../../style.css" text="سورة الزمر🕋">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Button>
+      <Label layoutX="473.0" layoutY="368.0" styleClass="quranLabel" stylesheets="@../../../style.css" text="وَلَقَدۡ يَسَّرۡنَا ٱلۡقُرۡءَانَ لِلذِّكۡرِ فَهَلۡ مِن مُّدَّكِرٖ">
+         <font>
+            <Font name="Algerian" size="37.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
